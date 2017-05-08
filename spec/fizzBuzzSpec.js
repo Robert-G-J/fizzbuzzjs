@@ -1,13 +1,15 @@
 describe('FizzBuzz', function() {
 
   var fizzBuzz;
+  //
+  // beforeEach(function() {
+  //   fizzBuzz = new FizzBuzz();
+  // });
 
-  beforeEach(function() {
+  it("checks multiples of 3", function() {
     fizzBuzz = new FizzBuzz();
-  });
-
-  it("lists numbers 1-100", function() {
-    expect(fizzBuzz(3)).toBe('Fizz');
+    expect(fizzBuzz.isDivisibleByThree(3)).toBe(true);
+    expect(fizzBuzz.isDivisibleByThree(4)).toBe(false);
   });
 
 });

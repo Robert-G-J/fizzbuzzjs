@@ -17,8 +17,8 @@ describe('FizzBuzz', function() {
   });
 
   it("checks multiples of 3 and 5", function() {
-    expect(fizzBuzz.isDivisibleByfifteen(15)).toBe(true);
-    expect(fizzBuzz.isDivisibleByfifteen(17)).toBe(false);
+    expect(fizzBuzz.isDivisibleByFifteen(15)).toBe(true);
+    expect(fizzBuzz.isDivisibleByFifteen(17)).toBe(false);
   });
 
 });

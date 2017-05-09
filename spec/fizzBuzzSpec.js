@@ -31,13 +31,13 @@ describe("FizzBuzz", function() {
   });
 
   it('returns fizzbuzz for multiples of 3 and 5', function() {
-    expect(fizzbuzz.play(15)).toBe('FizzBuzz');
-    expect(fizzbuzz.play(30)).toBe('FizzBuzz');
+    expect(fizzBuzz.play(15)).toBe('FizzBuzz');
+    expect(fizzBuzz.play(30)).toBe('FizzBuzz');
   });
 
   it('returns the number', function() {
-    expect(fizzbuzz.play(17)).toBe(17);
-    expect(fizzbuzz.play(22)).toBe(22);
+    expect(fizzBuzz.play(17)).toBe(17);
+    expect(fizzBuzz.play(22)).toBe(22);
   });
 
 });

@@ -16,8 +16,10 @@ function FizzBuzz() {
   };
 
   this.play = function(number){
-    if (number % 3 === 0) return 'Fizz';
-    else if (number % 5 === 0) return 'Buzz';
+    if (this.isDivByThreeAndFive(number)) return 'FizzBuzz';
+    else if (this.isDivByThree(number)) return 'Fizz';
+    else if (this.isDivByFive(number)) return 'Buzz';
+    else return number;
   };
 
 }

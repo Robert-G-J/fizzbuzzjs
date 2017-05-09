@@ -20,4 +20,11 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.isDivByThreeAndFive(14)).toBe(false);
   });
 
+  it('returns fizz for multiples of 3', function() {
+    expect(fizzBuzz.play(3)).toBe('Fizz');
+    expect(fizzBuzz.play(9)).toBe('Fizz')
+  });
+
+
+
 });

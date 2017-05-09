@@ -1,7 +1,8 @@
 function FizzBuzz() {
 
 this.isDivByThree = function(number) {
-  return true;
+  if (number % 3 === 0) return true;
+  else return false;
 };
 
 }

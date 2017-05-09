@@ -5,4 +5,9 @@ this.isDivByThree = function(number) {
   else return false;
 };
 
+this.isDivByFive = function(number) {
+  if (number % 5 === 0) return true;
+  else return false;
+};
+
 }

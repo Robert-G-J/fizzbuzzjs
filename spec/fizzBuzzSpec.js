@@ -15,4 +15,9 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.isDivByFive(11)).toBe(false);
   });
 
+  it("checks a number is a divisor of both 3 and 5", function() {
+    expect(fizzBuzz.isDivByThreeAndFive(15)).toBe(true);
+    expect(fizzBuzz.isDivByThreeAndFive(14)).toBe(false);
+  });
+
 });

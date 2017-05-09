@@ -22,9 +22,12 @@ describe("FizzBuzz", function() {
 
   it('returns fizz for multiples of 3', function() {
     expect(fizzBuzz.play(3)).toBe('Fizz');
-    expect(fizzBuzz.play(9)).toBe('Fizz')
+    expect(fizzBuzz.play(9)).toBe('Fizz');
   });
 
-
+  it('returns buzz for multiples of 5', function() {
+    expect(fizzBuzz.play(5)).toBe('Buzz');
+    expect(fizzBuzz.play(10)).toBe('Buzz');
+  });
 
 });

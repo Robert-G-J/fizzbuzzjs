@@ -15,4 +15,8 @@ function FizzBuzz() {
     else return false;
   };
 
+  this.play = function(number){
+    if (number % 3 === 0) return 'Fizz';
+  };
+
 }
